@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/kaprodiLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Mata Kuliah"
+            android:textSize="20sp"
+            android:textColor="#003399"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etNamaMatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Mata Kuliah"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etKodeMatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode Mata Kuliah"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etSks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah SKS"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etSemester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Semester"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnTambahMatkul"
+            android:text="Tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#003399"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Mata Kuliah:"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:id="@+id/listMatkul"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

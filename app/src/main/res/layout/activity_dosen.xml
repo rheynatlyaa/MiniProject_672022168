@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvInfoDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosen UID"
+            android:textStyle="bold"
+            android:textColor="#003399"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etMahasiswaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mahasiswa ID (UID)"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etMatkulId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="ID Mata Kuliah"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etUTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Nilai UTS"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etUAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Nilai UAS"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Nilai Tugas"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnSimpanNilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Simpan Nilai"
+            android:backgroundTint="#003399"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
